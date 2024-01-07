@@ -1,0 +1,18 @@
+{
+  "name": "baatchit",
+  "version": "1.0.0",
+  "description": "\"This project helps the user to put conversation online irrespective of time and place\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node E:/kishore/chatApp/ChatApp/backend/server.js"
+  },
+  "keywords": [
+    "\"chatapp\""
+  ],
+  "author": "kishore jha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}

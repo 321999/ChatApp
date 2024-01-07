@@ -3,4 +3,4 @@ const exp = require("express")
 const app = exp()
 
 // listnening on the port 5000
-app.listen("5000", console.log("server is activated:localhost::/"))
+app.listen("5000", console.log("server is activated:http://localhost:5000/"))
