@@ -1,5 +1,10 @@
 const exp = require("express");
+
 const { chats } = require("./Dummy/data");
+
+// IMPORTING the env file
+const dotenv = require("dotenv")
+dotenv.config()
 // creating instance of the express app
 const app = exp();
 
@@ -25,5 +30,10 @@ app.get("/api/chat/:id", (req, res) => {
     res.send(singlechat)
     console.log(req.params.id);
 });
+
+
+// to use the port variable 
+const port = process.env.PORT || 8000
+
 // listnening on the port 5000
-app.listen("5000", console.log("server is activated:http://localhost:5000/"))        
+app.listen(port, console.log(`server is activated ON ${port}:http://localhost:5000/`))        
