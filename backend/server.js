@@ -31,7 +31,6 @@ app.get("/api/chat/:id", (req, res) => {
     console.log(req.params.id);
 });
 
-
 // to use the port variable 
 const port = process.env.PORT || 8000
 
